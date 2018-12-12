@@ -173,25 +173,38 @@ publishdir = "../come2thetable.org"
       alt = "Dayne L Filer"
       social = [
         ["icon-linkedin", "https://www.linkedin.com/in/daynefiler/"],
-        ["icon-envelope", "mailto:dayne.filer@gmail.com"],
+        ["icon-envelope", "mailto:dayne@come2thetable.org"],
         ["icon-dribbble", "https://daynefiler.github.io"]
       ]
 
     [[params.about.item]]
       name = "Dave Lyons"
-      position = "Co-founder, Board Member at Large"
-      description = "Dave is a twenty-four year veteran of the US Army Rangers turned database administrator/IT guru. He now resides in WI with his amazing wife, Kim (also a co-founder and former board member)."
+      position = "Founder, Board Member"
+      description = ""
       img = "Dave.jpg"
       alt = "Dave M Lyons"
       social = [
         ["icon-linkedin", "https://www.linkedin.com/in/lyonsd/"],
-        ["icon-envelope", "mailto:dmlyons2@gmail.com"]
+        ["icon-envelope", "mailto:dave@come2thetable.org"]
       ]
+
+      [[params.about.item]]
+        name = "Kim Lyons"
+        position = "Co-founder, Board Member"
+        description = ""
+        img = "Kim.jpg"
+        alt = "Kim Lyons"
+        social = [
+          ["icon-linkedin", "https://www.linkedin.com/in/kim-lyons-9844b24"],
+          ["icon-envelope", "mailto:kim@come2thetable.org"]
+        ]
+
+
 
     [[params.about.item]]
       name = "Samuel Fleder"
       position = "Attorney"
-      description = "Sam and his firm, Smith Debnam, generously provide pro bono legal counsel for Come to the Table, Inc.  <br> <br> <img ali src=\"/images/smithdebnam.gif\" class = \"center90\">"
+      description = "Sam and his firm, Smith Debnam, generously provide pro bono legal counsel for Come to the Table, Inc." # <br> <br> <img ali src=\"/images/smithdebnam.gif\" class = \"center90\">"
       img = "Sam.jpg"
       alt = "Samuel Fleder, JD"
       social = [
@@ -242,15 +255,15 @@ publishdir = "../come2thetable.org"
   [params.contact]
     enable = true
     map = false
-    form = true
+    form = false
     title = "Get in touch"
-    description = "We would love to hear from you."
+    description = "We would love to hear from you. <br> <a href=\"mailto:info@come2thetable.org\">Send us a line.</a>"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Durham, NC"],
+        #["icon-home", "Durham, NC"],
         #["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "dayne.filer@gmail.com"]#,
+        #["icon-envelope", "dayne.filer@gmail.com"]#,
         #["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
